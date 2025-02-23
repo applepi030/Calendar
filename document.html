@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document</title>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'><link rel="stylesheet" href="стили.css">
+    
+    </head>
+    <body>
+
+        <div id="month-calendar">
+
+            <!-- Блок с заголовками (наименования месяца и года) и навигацией (на месяц вперед и назад) -->
+            <ul class="month">
+            
+                <li class="prev"><i class="fas fa-angle-double-left"></i></li>
+                <li class="next"><i class="fas fa-angle-double-right"></i></li>
+                <li class="month-name"></li>
+                <li class="year-name"></li>
+            </ul>
+            <!-- Блок с наименования дней недели, начинается с понедельника (Пн) -->
+            <ul class="weekdays">
+                <li>Пн</li>
+                <li>Вт</li>
+                <li>Ср</li>
+                <li>Чт</li>
+                <li>Пт</li>
+                <li>Сб</li>
+                <li>Вс</li>
+            </ul>
+            <!-- табличная часть, дни месяца -->
+            <ul class="days">
+                <li>1</li>
+                <li>2</li>
+            <li>...</li>
+            <li>31</li>
+            </ul>
+        </div>
+        <script src="getDate.js"></script>
+    </body>
+</html>

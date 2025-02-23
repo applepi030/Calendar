@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New' , sans-serif;
+    color: #ffffff;
+    background-image: url(https://wallpapers.com/images/hd/aesthetic-soft-pink-peach-laptop-l3bv8h2pub573gg9.jpg);
+    background-color: rgb(238, 230, 230);
+}
+
+/* месяцы и годы */
+#month-calendar{
+    width: 100%;
+}
+
+.month{
+    margin: 0;
+    padding: 3rem 2rem 2rem;
+    background: #e6afde;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    list-style: none;
+}
+
+.month li{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.month li.prev,
+.month li.next{
+    cursor: pointer;
+}
+
+.month li.prev{
+    float: left;
+}
+
+.month li.next{
+    float: right;
+}
+
+.month li.year-name{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* дни недели */
+.weekdays{
+    margin: 0;
+    padding: 1rem 0;
+    background-color: #c297e6;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+.weekdays li{
+    display: inline-block;
+    flex: 0 0 calc(100% / 7);
+    text-align: center;
+}
+
+/* дни */
+.days{
+    margin: 0;
+    padding: 1rem 0;
+    background-color: #e9e0f1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: flex-start;
+    height: 14rem;
+}
+
+.days li{
+    padding: 0.5rem;
+    list-style: none;
+    display: inline-block;
+    flex: 0 0 calc(100% / 7);
+    text-align: center;
+    color: #999;
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+.days li.date-now{
+    color: #000;
+    font-weight: 700;
+}
