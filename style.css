@@ -16,9 +16,9 @@ body{
 .month{
     margin: 0;
     padding: 3rem 2rem 2rem;
-    background: #e6afde;
+    background: #fecec2;
     text-align: center;
-    width: 100%;
+    width: 100%; height: 70%;
     color: #ffffff;
     list-style: none;
 }
@@ -28,7 +28,7 @@ body{
     margin: 0;
     font-size: 1.5rem;
     line-height: 1.4;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1rem;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -54,8 +54,8 @@ body{
 /* дни недели */
 .weekdays{
     margin: 0;
-    padding: 1rem 0;
-    background-color: #c297e6;
+    padding: 1.5rem 0;
+    background-color: #fdb0a1;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -73,7 +73,7 @@ body{
 .days{
     margin: 0;
     padding: 1rem 0;
-    background-color: #e9e0f1;
+    background-color: #ffece6;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -88,8 +88,8 @@ body{
     display: inline-block;
     flex: 0 0 calc(100% / 7);
     text-align: center;
-    color: #999;
-    font-size: 0.9rem;
+    color: #1a1818;
+    font-size: 1.5rem;
     line-height: 1rem;
 }
 
